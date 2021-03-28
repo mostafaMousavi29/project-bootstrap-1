@@ -1,0 +1,26 @@
+body{
+direction: rtl;
+text-align: right;
+font-family: vazir;
+}
+.jumbotron{
+padding-top: 6rem;
+padding-bottom: 6rem;
+background-color: #fff;
+margin-bottom: 0;
+}
+@media(min-width : 760px) {
+.jumbotron{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    }
+}
+.jumbotron .container{
+    max-width: 40rem;
+}
+/*.btn-group{
+    margin-left: 88px;
+}*/
+.card-footer {
+    margin-inline: 23px;
+}
